@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang = "ru">
+<head>
+    <meta charset = "UTF-8">
+    <meta http-equiv="X-UA-Compatible" content= "IE-edge">
+    <meta name="viewport" content ="width=device-width, initial-scale=1.0">
+    <title> Landing Page </title>
+    <link rel = "preconnect"
+        href="https://fonts.gstatic.com">
+    <link 
+        href = "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+        rel = "stylesheet" >
+    <link rel = "stylesheet" href = "styles/style.min.css">
+    <script src "js/accordion.js" defer></script>
+    <script src "js/smothScroll.js" defer></script> 
+    <script src "js/tabs.js" defer></script>
+</head>
+
+<body>
+    <header class = "header">
+        <div class = "container">
+            <div class = "header-wrapper">
+                <div class = "header-main">
+                    <a href = "#" class = "logo_header__logo">
+                        <img src = "img/logo.svg">
+                            alt = "Logo:Landing page"
+                            class = "Logo__img"
+                    </a>
+
+                    <nav class= "menu">
+                    <ul class = "menu-list">
+                    <li class = "menu-list__item">
+                    <a href = "#design"
+                        class = "menu-list__link">
+                        design
+                    </a>
+                    </li>
+                    <li class = "menu-list__item">
+                        <a href = "#feature"
+                            class = "menu-list__link scroll">
+                        charakteristics
+                        </a>
+                    </li>
+                    <li class = "menu-list__item">
+                        <a href = "#"
+                            class = "menu-list__link">
+                        dialler network
+                    </a>
+                    </li>
+                    <li class = "menu-list__item">
+                        <a href = "#contacts"
+                            class = "menu-list__link scroll">
+                            test drive    
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <a href = "tel:555666777" class = "phone">
+            555 666 777
+        </a>
+        <button class="hamburger-menu" aria-label = "Burger menu">
+        </button>
+    </div>
+</div>
+</header>
+
+{% comment %} header end
+main start {% endcomment %}
+
+<section class="main" id ="main">
+    <div class = "container">
+        <div class = "main-wrapper">
+            <div class = "offer">
+            <h1 class = "main__title" landing page </h1>
+            <p class = "main_description"> landing page for you </p>
+            <a href = "#contacts" type = "button" class ="button main_button scroll">
+                test drive
+            </a>
+            <a href = "#design" clas = "main__scroll scroll" aria-label = "next screen"> 
+            </a>
+        </div>
+        < div class = "main-img">
+            <a href = "https://youtu.be/dkrFZSWyklU" class = "play">
+            Watch video
+        </a>
+    </div>
+</di>
+</section>
+
+{% comment %} main end
+design start {% endcomment %}
+
+<section class = "section design" id="design">
+    <div class = "container">
+        <div class = "design-wrapper">
+            <div class = "design-block">
+                <img src = "img/car/image-5.png" alt = "BMW" class = "feature__img design-block__img">
+                <img src = "img/car/image-5.png" alt = "BMW" class = "feature__img design-block__img">
+                <div class = "design-text">
+                    <h2 class = "section__title design__title">
+                    comfort
+                    </h2>
+                    <h2 class = "section__title design__title hidden">
+                    so beauty
+                    </h2>
+                    <ul class = "design-list">
+                        <li>
+                            <button type = "button" class = "design-list__item design-list__item_active" data-tabs-handler="body"> </button>
+                        </li>
+                        <li>
+                            <button type = "button" class = "design-list__item" data-tabs-handler="body"> ok </button>
+                        </li>
+                    </ul>
+
+                    <ul>
+                    <li class ="design__descr" data-tabs-field="interior">
+                        <p class = "design__description-text">
+                        very nice landing
+                        </p>
+                        <button class = "more">
+                        more info
+                        </button>
+                    </li>
+
+                    <li class = "design__descr hidden" data-tabs-field="body">
+                        <p class = "design__description-text">
+                        simple, convinient
+                        </p>
+                        <butten class = "more">
+                        more info
+                        </button>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+
+            <ul>
+                <li class = "design-images" data-tabs-field="interior">
+                    <img src = "img/design/interior01.jpg" alt ="123" class = "design__img">
+                    <img src = "img/design/interior01.jpg" alt ="123" class = "design__img">
+                </li>
+                <li class = "design-images hidden" data-tabs-field="body">
+                    <img src = "img/design/interior01.jpg" alt ="123" class = "design__img">
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+{% comment %} design end
+feature start  {% endcomment %}
+
+<section class = "section feature" id="feature">
+    <div class = "container">
+        <div class = "feature-wrapper">
+            <div class = "feature-block">
+                <h2 class = "section__title feature__title">
+                characteristics
+                </h2>
+                <ul class = "feature-list">
+                    <li class ="feature__item">
+                        <button type="button" class="feature__link feature__link_active">
+                            <div class="feature-item-wrap">
+                                <span class = "feature-item__title">
+                                specifications
+                                </span>
+                            </div>
+                        </button>
+
+                        <ul class ="feature-sub">
+                            <li class ="feature-sub__item">
+                                <span class = "feature-sub__name">
+                                maximum speed
+                                </span>
+                                <span class = "feature-sub__value">
+                                333
+                                </span>
+                            </li>
+                            <li class ="feature-sub__item">
+                                <span class = "feature-sub__name">
+                                oil using
+                                </span>
+                                <span class = "feature-sub__value">
+                                55/1
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<section class = "section contacts" id="contacts">
+    <div class = "container">
+        <div class = "contacts-wrapper">
+            <div class = "contacts-form">
+                <h2 class = "section__title">
+                request
+                </h2>
+                <p class = "contacts__descr">
+                    leave the message
+                </p>
+                <form class ="form form-test-drive">
+                    <input type="text" class="input" name="name" placeholder = "Imia">
+                    <input type="text" class="input" name="name" placeholder = "Imia">
+                    <input type="text" class="input" name="name" placeholder = "Imia">
+                    <button type="submit" class="button form__button">
+                    send
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>     
+
+{% comment %} modal(start) {% endcomment %}
+
+<div class = "modal hidden">
+    <div class="overlay"></div>
+    <div class="modal-wrapper">
+        <h2 class ="section__title modal__title">
+        description
+        </h2>
+        <p class="modal__descr">
+        email adress 
+        </p>
+        <button type ="button" class="modal__close" aria-label = "close modal window">
+        </button>
+        <form class ="form modal__form">
+            <input type ="text" name="name" class="input modal__input" placeholder = "Name">
+            <input type ="mail" name="mail" class="input modal__input" placeholder = "email">
+            <div class="modal-buttons">
+                <button type ="submit" class="button modal__button">
+                send
+                </button>
+            </div>
+        </form>
+
+        {% comment %} /.form modal__form {% endcomment %}
+
+    </div>
+</div>
+{% comment %} modal end {% endcomment %}
+</body>
+</html>
+ 
+
+
+
+
