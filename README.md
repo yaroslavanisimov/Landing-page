@@ -6,4 +6,4 @@ HTML/CS styles were downloaded and edited separately, JS was writing manually
 
 You will find - tabs, accordions, scrolling and another effects
 
-JSONplaceholder was using for sending the project into the server.
+JSON placeholder was using for sending the project into the server.
